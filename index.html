@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ذكرى 6 أكتوبر</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      :root{--accent:#0d6efd}
+      body{font-family: "Segoe UI", Tahoma, Arial, sans-serif; background:#f8f9fa}
+      .hero{background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?q=80&w=1600&auto=format&fit=crop'); background-size:cover; background-position:center; color:white}
+      .overlay{background:rgba(0,0,0,0.45)}
+      .timeline .card{border-left:4px solid var(--accent)}
+      .gallery img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+      footer{background:#0b2140;color:#fff}
+      @media (min-width:992px){.hero{height:420px}}
+    </style>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">6 أكتوبر</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">عن الحدث</a></li>
+            <li class="nav-item"><a class="nav-link" href="#timeline">الجدول الزمني</a></li>
+            <li class="nav-item"><a class="nav-link" href="#heroes">أبطال الحرب</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">معرض</a></li>
+            <li class="nav-item"><a class="nav-link" href="#facts">معلومات</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero text-center d-flex align-items-center">
+      <div class="overlay w-100 py-5">
+        <div class="container py-5 text-end">
+          <h1 class="display-5 fw-bold">ذكرى 6 أكتوبر 1973</h1>
+          <p class="lead">يوم خالد في تاريخ مصر والعالم العربي — يوم استرداد العزة والكرامة.</p>
+          <a href="#about" class="btn btn-light btn-lg">اعرف أكثر</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-end">
+            <h2>عن حرب أكتوبر</h2>
+            <p>حرب أكتوبر أو حرب العاشر من رمضان عام 1973، كانت مواجهة عسكرية بين مصر وسوريا من جهة وإسرائيل من جهة أخرى. بدأت الحرب يوم السبت 6 أكتوبر 1973 الموافق 10 رمضان 1393 هـ، عندما شنّت القوات المصرية والسورية هجومًا مفاجئًا على القوات الإسرائيلية في سيناء والجولان.</p>
+            <p>نجحت القوات المصرية في عبور قناة السويس وتحطيم خط بارليف الدفاعي، وهو ما اعتُبر إنجازًا عسكريًا وتاريخيًا عظيمًا، وأحد أهم الانتصارات في التاريخ المصري الحديث.</p>
+            <ul>
+              <li>بداية العمليات: ظهر يوم 6 أكتوبر 1973.</li>
+              <li>عدد القوات المصرية: أكثر من 200 ألف جندي.</li>
+              <li>أحد أبرز الإنجازات: عبور قناة السويس وتحطيم خط بارليف خلال 6 ساعات.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Crossing_of_the_Suez_Canal_-_Yom_Kippur_War.jpg" alt="العبور" class="img-fluid rounded shadow-sm">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="py-5 bg-white">
+      <div class="container">
+        <h3 class="mb-4 text-end">الجدول الزمني للحرب</h3>
+        <div class="row timeline g-4">
+          <div class="col-md-3">
+            <div class="card p-3">
+              <h5 class="card-title">10 رمضان 1393 هـ</h5>
+              <p class="card-text">بدأت الحرب يوم 6 أكتوبر 1973 بهجوم مفاجئ للقوات المصرية والسورية.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card p-3">
+              <h5 class="card-title">عبور القناة</h5>
+              <p class="card-text">نجحت القوات المصرية في عبور قناة السويس وتحطيم خط بارليف.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card p-3">
+              <h5 class="card-title">معارك الثغرة</h5>
+              <p class="card-text">حاولت القوات الإسرائيلية القيام بهجوم مضاد فيما عُرف بـ “معركة الثغرة”.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card p-3">
+              <h5 class="card-title">وقف إطلاق النار</h5>
+              <p class="card-text">صدر قرار مجلس الأمن بوقف إطلاق النار يوم 22 أكتوبر 1973.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heroes -->
+    <section id="heroes" class="py-5">
+      <div class="container">
+        <h3 class="mb-4 text-end">أبطال الحرب</h3>
+        <div class="row g-4 text-end">
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>المشير أحمد إسماعيل</h5>
+              <p>وزير الحربية وقائد عام القوات المسلحة المصرية وقت الحرب.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>الفريق سعد الدين الشاذلي</h5>
+              <p>رئيس أركان حرب القوات المسلحة، واضع خطة العبور.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>اللواء عبد المنعم رياض</h5>
+              <p>من أبرز القادة العسكريين، واستُشهد قبل الحرب لكنه كان قدوة في الاستعداد والمعركة.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h3 class="mb-4 text-end">معرض صور</h3>
+        <div class="row g-3 gallery">
+          <div class="col-6 col-md-3"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Egyptian_troops_crossing_the_Suez_Canal_on_6_October_1973.jpg" alt="الجنود يعبرون" data-bs-toggle="modal" data-bs-target="#imgModal"></div>
+          <div class="col-6 col-md-3"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Yom_Kippur_War_Crossing.jpg" alt="العبور" data-bs-toggle="modal" data-bs-target="#imgModal"></div>
+          <div class="col-6 col-md-3"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Yom_Kippur_War_-_Egyptian_soldiers_crossing_the_Suez_Canal.jpg" alt="القوات المصرية" data-bs-toggle="modal" data-bs-target="#imgModal"></div>
+          <div class="col-6 col-md-3"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Line_of_departure_Suez_Canal_October_6_1973.jpg" alt="خط القناة" data-bs-toggle="modal" data-bs-target="#imgModal"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imgModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <img src="" alt="" id="modalImg" style="width:100%;height:auto;display:block;">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Facts -->
+    <section id="facts" class="py-5 bg-white">
+      <div class="container">
+        <h3 class="mb-4 text-end">معلومات سريعة</h3>
+        <div class="row g-3 text-end">
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>خط بارليف</h5>
+              <p>كان خطًا دفاعيًا إسرائيليًا قويًا مكونًا من تحصينات خرسانية على الضفة الشرقية للقناة. تم تدميره في ساعات قليلة.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>الخسائر</h5>
+              <p>تكبّدت إسرائيل خسائر كبيرة في الجنود والمعدات، وكانت هذه الحرب من أهم الأسباب في إعادة التوازن السياسي بالمنطقة.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h5>النتائج السياسية</h5>
+              <p>مهدت الحرب لاتفاقية السلام لاحقًا بين مصر وإسرائيل (كامب ديفيد 1978).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 mt-5">
+      <div class="container text-center">
+        <p class="mb-1">© جميع الحقوق محفوظة</p>
+        <small>صُمّم كمشروع تعليمي — يمكنك إضافة تفاصيل أخرى ومراجع حسب الحاجة.</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Open clicked gallery image in modal
+      document.querySelectorAll('.gallery img').forEach(img => {
+        img.addEventListener('click', e => {
+          const modalImg = document.getElementById('modalImg');
+          modalImg.src = e.target.src;
+        });
+      });
+
+      // Smooth scroll for nav links
+      document.querySelectorAll('a[href^="#"]').forEach(a=>{
+        a.addEventListener('click', function(e){
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if(target) target.scrollIntoView({behavior:'smooth'});
+        });
+      });
+    </script>
+  </body>
+</html>
